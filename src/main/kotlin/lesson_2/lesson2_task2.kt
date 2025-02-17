@@ -1,5 +1,3 @@
-package org.example
-
 fun main() {
     val workers = 50
     val salaryWorkers = 30000

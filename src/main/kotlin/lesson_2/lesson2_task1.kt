@@ -1,5 +1,3 @@
-package org.example
-
 fun main() {
     val mark1 = 3.0
     val mark2 = 4.0
