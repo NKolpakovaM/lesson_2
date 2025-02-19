@@ -1,10 +1,10 @@
-import java.math.BigDecimal
 fun main() {
-    val crystalOre = BigDecimal(7)
-    val ironOre = BigDecimal(11)
-    val buffPercentage = BigDecimal("0.20")
-    val crystalBonus = crystalOre * buffPercentage
-    val ironBonus = ironOre * buffPercentage
-    println("Бонусная кристаллическая руда: $crystalBonus") // Output: 1.40
-    println("Бонусная железная руда: $ironBonus") // Output: 2.20
+    val crystalOre = 7.0
+    val ironOre = 11.0
+    val buffShare = 20.0
+    val percentage = 100
+    val crystalBonus = (crystalOre * (buffShare / percentage)).toInt()
+    val ironBonus = (ironOre * (buffShare / percentage)).toInt()
+    println("Бонусная кристаллическая руда: $crystalBonus")
+    println("Бонусная железная руда: $ironBonus")
 }
