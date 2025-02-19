@@ -6,4 +6,5 @@ fun main() {
     val seconds = remainingSeconds % 60
     val formattedTime = String.format("%02d:%02d:%02d", hours, minutes, seconds)
     println("Gagarin space time was $formattedTime")
+
 }
